@@ -1,0 +1,105 @@
+html{
+    background-color: rgb(122, 255, 211);
+}
+
+header{
+    width:85%;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: url(image/top.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.head_container{
+  padding: 10px;
+    display: flex;
+  justify-content: space-between;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    padding-top: 320px;
+    
+}
+
+.main-log{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 100;
+    padding: 100px 0 60px 0;
+}
+
+.contents{
+    display: flex;
+}
+
+.about-text{
+    font-size: 18px;
+    padding-left: 80px;
+}
+
+.myphoto img{
+    width: 280px;
+    padding: 20px 0 0 200px;
+}
+
+.skill-contents{
+    width: 50%;
+    text-align: center;
+}
+
+.skill-contents h1{
+    font-size: 25px;
+}
+
+
+
+.skill-text{
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 18px;
+}
+
+.skill-contents i{
+    padding: 30px 0 40px 0;
+}
+
+.work-top p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.work-top ol{
+    text-align: center;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+
+
+.work-contents img{
+    display: inline-block;
+    height: 280px;
+    width: 35%;
+    margin: 2% 2%;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.saito img:hover{
+    opacity: 0.5;
+}
+
+.saito2 img{
+    width: 25%;
+}
+
+.work-contents{
+    text-align: center;
+}
